@@ -54,6 +54,11 @@ navigation:
         visible_when:
           entitlements:
             - isHelmInstallEnabled
+      - title: Terraform Module
+        page: pages/reference/terraform.md
+        visible_when:
+          entitlements:
+            - isTerraformEnabled
 
   - title: Support
     icon: life-buoy
